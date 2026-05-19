@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: dev
+    database: db
+    tables:
+      - name: raw_weather_api
+        columns:
+          - name: id
+          - name: city
+          - name: country
+          - name: temperature
+          - name: local_time 
+          - name: latitude
+          - name: longitude
+          - name: weather_descriptions
+          - name: sunrise
+          - name: sunset
+          - name: wind_speed
+          - name: utc_offset
+          - name: inserted_at
